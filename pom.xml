@@ -18,7 +18,7 @@
         
         <!-- Aquí está el paso de SonarQube integrado correctamente -->
         <sonar.projectKey>Jeampier1111_BoticaLuvalFarm</sonar.projectKey>
-        <sonar.organization>Jeampier1111</sonar.organization>
+        <sonar.organization>jeampier1111</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
