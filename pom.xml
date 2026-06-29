@@ -28,11 +28,11 @@
 
     <!-- Librerías requeridas por el proyecto -->
     <dependencies>
-        <!-- Librería oficial de NetBeans AbsoluteLayout Extracost -->
+        <!-- Versión pública y compatible de AbsoluteLayout en Maven Central -->
         <dependency>
             <groupId>org.netbeans.external</groupId>
-            <artifactId>org-netbeans-lib-awtextra</artifactId>
-            <version>RELEASE170</version>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>RELEASE180</version>
         </dependency>
     </dependencies>
 
