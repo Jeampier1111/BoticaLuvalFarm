@@ -26,6 +26,16 @@
         <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
 
+    <!-- Librerías requeridas por el proyecto -->
+    <dependencies>
+        <!-- Librería oficial de NetBeans AbsoluteLayout Extracost -->
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>org-netbeans-lib-awtextra</artifactId>
+            <version>RELEASE170</version>
+        </dependency>
+    </dependencies>
+
     <!-- Configuración para que Maven compile la carpeta src correctamente -->
     <build>
         <sourceDirectory>src</sourceDirectory>
