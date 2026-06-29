@@ -1,3 +1,25 @@
-<properties>
-  <sonar.organization>Jeampier1111</sonar.organization>
-</properties>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://apache.org"
+         xmlns:xsi="http://w3.org"
+         xsi:schemaLocation="http://apache.org http://apache.org">
+    
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Datos obligatorios de tu aplicación -->
+    <groupId>com.botica.luval</groupId>
+    <artifactId>BoticaLuvalFarm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Propiedades del proyecto y de SonarQube unificadas -->
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        
+        <!-- Aquí está el paso de SonarQube integrado correctamente -->
+        <sonar.projectKey>Jeampier1111_BoticaLuvalFarm</sonar.projectKey>
+        <sonar.organization>Jeampier1111</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+
+</project>
